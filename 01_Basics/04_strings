@@ -1,0 +1,25 @@
+const name = "raj"
+const repoCount = 01
+
+// console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+
+// String Methods:-
+//  .length, .toUpperCase(), .charAt(), indexOf(), substring(startNumber, endNumber), .slice(), trim(), replace(), .includes(), .split(separator, limit)
+
+
+const gameName = new String("Valorant") // anOther way of declaration
+console.log(gameName.indexOf('o'));
+
+const newStirng = gameName.slice(-5,-2)
+console.log(newStirng);
+
+const newStringOne = "     hitesh    "
+console.log(newStringOne.trim())
+
+const url = "https://hitesh.com/hitesh%20choudhary"
+
+console.log(url.replace('%20', '-'))
+
+console.log(url.includes('sundar'))
+
+console.log(gameName.split('-'));
