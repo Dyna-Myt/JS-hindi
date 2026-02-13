@@ -59,4 +59,4 @@ console.log(Object.keys(tinderUser));  // Return type Array
 console.log(Object.values(tinderUser));  // Return type Array
 console.log(Object.entries(tinderUser)); 
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));  // return type bool
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));  // return type bool 
