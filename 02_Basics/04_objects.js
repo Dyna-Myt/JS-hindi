@@ -32,7 +32,7 @@ const obj4 = {5: "c", 6: "d"}
 // const obj3 = Object.assign({}, obj1, obj2, obj4) // syntax (target=>{}, source=>obj1,...)
 
 const obj3 = {...obj1, ...obj2}  // Spread operator => glass tod do!!
-console.log(obj3);
+// console.log(obj3);
 
 const users = [   // Objects inside array
     {
@@ -55,8 +55,20 @@ const users = [   // Objects inside array
   
 // Array Methods
 
-console.log(Object.keys(tinderUser));  // Return type Array
-console.log(Object.values(tinderUser));  // Return type Array
-console.log(Object.entries(tinderUser)); 
+// console.log(Object.keys(tinderUser));  // Return type Array
+// console.log(Object.values(tinderUser));  // Return type Array
+// console.log(Object.entries(tinderUser)); 
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));  // return type bool 
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));  // return type bool 
+
+// ---------------- Destructure --------------------
+
+const course = {
+    coursename: "JS in hindi",
+    price: "999",
+    instructor: "raj"
+}
+
+const {instructor} = course
+console.log(instructor);
+
