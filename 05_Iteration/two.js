@@ -14,7 +14,7 @@ while (arr < myArray.length) {
 
 let score = 11
 
-do {
+do {                                        // Pahle kaam then condition check
     console.log(`Score is ${score}`);
     score++
 } while (score <= 10);
